@@ -11,6 +11,8 @@ The program and setup were designed for the Soil Moisture Sensor (SN 300SD TR N0
 <img src="https://github.com/mardonat/Soil-Moisture-Sensor-LCD-Display/blob/main/images/parts.png" width="700" />
 
 Fig.1: All parts needed for this project.
+<br/>
+<br/>
 
 
 All cables from the individual sensors were connected in a junction box using Wago clamps (Fig.2). Communication with the sensors takes place via Modbus protocol. Modbus RTU sensors communicate using a master-slave architecture over RS-485, requiring each sensor to have a unique address to be identified on a shared cable.
@@ -20,6 +22,9 @@ All cables from the individual sensors were connected in a junction box using Wa
 <img src="https://github.com/mardonat/Soil-Moisture-Sensor-LCD-Display/blob/main/images/connections.png" width="700" />
 
 Fig.2: Schematic drawing and wiring of the 4 sensors in the junction box
+<br/>
+<br/>
+<br/>
 
 <img src="https://github.com/mardonat/Soil-Moisture-Sensor-LCD-Display/blob/main/images/layout.png" width="700" />
 
