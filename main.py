@@ -15,11 +15,11 @@ lcd.clear()
 # -----------------------------
 uart_rs485 = UART(1, baudrate=9600, tx=Pin(4), rx=Pin(5))
 de_re = Pin(10, Pin.OUT)
-de_re.value(0)  # Empfangsmodus
+de_re.value(0)  
 
 SENSOR_IDS = [1, 2, 3, 4]
 UPDATE_INTERVAL_MS = 3000
-REGISTER_MOISTURE = 0x0000   # ggf. anpassen!
+REGISTER_MOISTURE = 0x0000   
 MAX_RETRIES = 3
 
 # -----------------------------
@@ -69,11 +69,11 @@ def rs485_request(slave_id, register):
     uart_rs485.write(frame)
     uart_rs485.flush()
 
-    # WICHTIG: DE noch NICHT sofort ausschalten
+    
     time.sleep_ms(3)
     de_re.value(0)
 
-    # Antwort einsammeln (max 200 ms)
+    
     start = time.ticks_ms()
     resp = b""
 
