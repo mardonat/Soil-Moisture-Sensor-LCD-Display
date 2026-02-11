@@ -1,15 +1,18 @@
 # Soil-Moisture-Sensor-LCD-Display
 
+## Introduction
+A simple setup was constructed for easy calibration of TDR soil moisture sensors, allowing moisture values from individual sensors to be read directly from the display.
+After successful calibration, the sensors will be installed in the field and integrated into the Citizen Science project as part of the “Klimawerkstatt Fläming - Gemeinsam grüner leben” (Fläming Climate Workshop - Living Greener Together) project in the water map https://wasserkarte.badbelzig-klimadaten.de/.
+
+## Description
+The program and setup were designed for the Soil Moisture Sensor (SN 300SD TR N01). These are inexpensive sensors that indirectly determine the water content using the TDR measurement principle. The raw signals are output in V% through an unknown internal conversion and parameters.
 
 
-## test1
 
-
-<img src="https://github.com/mardonat/Soil-Moisture-Sensor-LCD-Display/blob/main/images/connections.png" width="1000" />
+<img src="https://github.com/mardonat/Soil-Moisture-Sensor-LCD-Display/blob/main/images/connections.png" width="500" />
 
 Fig.1: Schematic drawing and wiring of the 4 sensors in the junction box
 
 
 
 
-<img src="https://github.com/mardonat/bevoelkerungsprognosen/blob/main/bev%C3%B6lkerungsprognosen_und_realentwickluing_prozent.png" width="600" />
